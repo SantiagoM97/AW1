@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mi primer formulario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+    <h2>Formulario</h2>
+
+        <form action="" method="get">  
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" required> 
+            <br>
+            <label for="apellido"> Apellido:</label>
+            <br>
+            <input type="text" id="apellido" required>
+            <br><br>
+            <label for="text">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="99" required> </input>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="text" id="edad" name="email"> </label>
+            <br><br>
+            <label for="tel">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" required> </input>
+            <br><br>
+            <label for="date">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required></label>
+            <br><br>
+            <label for="radio">Radio</label>
+            <input type="radio" id="radio" name="radio" value="si" checked>
+            <input type="radio" id="radio" name="radio" value="no">
+            <br><br>
+            <select name="pais" id="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="peru">Peru</option>
+            </select>
+            <br><br>
+        <label for="terminos" id="terminos" name="terminos">Aceptar terminos y condiciones</label>
+        <input type="checkbox" id="terminos" name="terminos" value="ok" required>
+        <input type="checkbox" id="terminos" name="terminos" value="ok" required>
+        <br><br>    
+        <button type="submit">Enviar</button>
+            <br><br>
+        </form>    
+        <script src="" async defer></script>
+    </body>
+</html>
